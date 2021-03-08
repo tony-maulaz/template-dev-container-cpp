@@ -20,4 +20,6 @@ ENV LANG=C.UTF-8
 
 RUN pip3 install baygon==0.2.1
 
+RUN ln -sf /usr/bin/clang-format-10 /usr/bin/clang-format
+
 ADD .bashrc /root/.bashrc
