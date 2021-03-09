@@ -13,7 +13,7 @@ RUN apt-get update && \
                        python3 \
                        wget \
                        python3-pip \
-                       clang-format 
+                       clang-format-10
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
